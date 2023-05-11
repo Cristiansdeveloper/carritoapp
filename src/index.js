@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Carro from './carrito/Carro';
+const port = process.env.PORT || 6558;
 import {
   createBrowserRouter,
   RouterProvider,
