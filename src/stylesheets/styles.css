@@ -1,0 +1,138 @@
+html, body{
+    height:100%;
+    background-color:#d2dce3
+}
+
+.contenedor-articulo {
+    border: 1px solid grey;
+    padding-top: 1em;
+    min-width: 33%;
+    max-width: 33%;
+    height: auto;
+    margin-left: 1em;
+    display: flex;
+    margin-bottom:1em;
+}
+
+
+.inputart {
+    align-self: center;
+    margin-right: 2em;
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.inputart>input {
+    width: inherit;
+    margin-bottom:10px;
+    max-width: 2rem;
+    text-align: center;
+}
+
+.inputart>button{
+    width: fit-content;
+}
+
+.imgnomypr {
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 20rem;
+}
+
+
+.imgnomypr>img {
+    width: 50%;
+    height: auto;
+}
+
+
+
+.menu-superior{
+    height: fit-content;
+    background-color:#ada5c5;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom:2em;
+    align-items: right;
+
+}
+
+.icono-carrito{
+    width: 40px;
+    height:fit-content;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-right: 1em;
+    
+
+}
+
+.carrito{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5em;
+}
+
+.articulos-en-carro{
+ margin-left:1.5em;
+ margin-right:1.5em;
+ width: 50%;
+ align-self: center;
+}
+
+.contenedor-carro{
+    margin-left:1.5em;
+    margin-right:1.5em;
+    display:flex;
+    background-color:#d2dce3;
+
+   }
+
+.precio-carro{
+    width:25%;
+    padding-left: 50px;
+    border-left: 1px grey solid;
+}
+
+.titulo-carrito{
+    margin-left: 20px;
+    margin-top:0px;
+}
+
+.titulo-total{
+    margin:0px;
+}
+   
+.nombre-para-total{
+    margin-bottom: 1px grey solid;
+}
+
+.contenedor-carrito{
+    background-color: #d2dce3;
+    padding-top:20px;
+    min-height: 100%;
+}
+
+.contenedor-artcar{
+    background-color: white;
+    padding: 50px 50px;
+    width: 55%;
+    border: 2px black solid;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor-lateral{
+    width: 25%;
+}
+
+.todo-carro{
+    width: 100%;
+    height:100%;
+}
